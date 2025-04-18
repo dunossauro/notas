@@ -1,0 +1,9 @@
+baseURL = "https://notas.dunossauro.com"
+title = "Minhas notas"
+languageCode = 'pt-BR'
+defaultContentLanguage = 'pt'
+
+[outputFormats]
+[outputFormats.RSS]
+mediatype = "application/rss+xml"
+baseName = "feed"

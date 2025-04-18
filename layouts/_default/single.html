@@ -1,0 +1,6 @@
+{{ partial "header.html" . }}
+
+<article class="h-entry">
+    <p class="p-content">{{ .Content }}</p>
+    <time class="dt-published">{{ .Date | time.Format "Jan 02, 2006 3:04 PM" }}</time>
+</article>
